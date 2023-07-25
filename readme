@@ -1,0 +1,18 @@
+Veeam Test Task - Jan Bíl
+
+Operating system: Linux
+
+usage: synch.py [-h] -s SOURCE_FOLDER -r REPLICA_FOLDER [-i INTERVAL] [-l LOG_FILE]
+
+Synchronizes 2 files periodicaly and logs changes
+
+options:
+  -h, --help            show this help message and exit
+  -s SOURCE_FOLDER, --source_folder SOURCE_FOLDER
+                        Path of the source folder
+  -r REPLICA_FOLDER, --replica_folder REPLICA_FOLDER
+                        Path of the replica folder
+  -i INTERVAL, --interval INTERVAL
+                        Time interval between synchronizations in seconds, default = 10
+  -l LOG_FILE, --log_file LOG_FILE
+                        Path to a log file, default is log_file.txt
